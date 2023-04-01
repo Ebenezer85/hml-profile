@@ -7,20 +7,19 @@
 .head {
     background-color: #1F2235;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 5px 5px;
+    padding: 15px 100px;
 
 }
 
 #logo {
-    width: 10%;
-    height: 10%;
-    margin: 80px 120px;
+    width: 130px;   
 }
 
-#navbar {
-    margin: 50px 70px;
-    padding: 2px;
+#navbar > ul {
+    margin-left: 100px;
+    
 }
 
 .links {
@@ -31,54 +30,100 @@
 .links a {
     text-decoration: none;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .links a:hover {
     color: #FF4A57;
 }
 
-#row1 {
+#sect-1 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #24263B;
-    padding: 150px 100px;
-}
-
-/* .row2 {
-    display: flex;
-} */
-.btns {
-    border-radius: 50%;
-    padding: 15px 8px;
-    margin: 8px 10px;
-    width: 20%;
-    border: 2px solid #FF4A57;
-    font-size: 20px;
-    background-color: #24263B;
-    color: #FFffff;
-    display: inline;
-}
-
-h1,
-h2 {
     color: white;
+    padding: 50px 100px;
 }
 
-button:hover {
+#main-1 {
+    margin-right: 50px;
+    margin-top: 100px;
+    
+}
+
+.btns {
+    background-color: #24263B;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #FF4A57;
+    font-size: 18px;
+    cursor: pointer; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.btns:hover{
     background-color: #FF4A57;
 }
 
-.my {
-    border-radius: 100px;
-    padding: 15px 60px;
+.heading-1 {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 50px;
 }
 
-#picture {
-    width: 50%;
-    height: 50%;
-    margin: 10px 400px;
-    ;
+p {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight:bold
+    
+}
+
+.port {background-color: #24263B;
+color: #ffffff;
+text-align: center;
+border-radius: 15% / 50%;
+margin-top: 50px;
+border: 2px solid #FF4A57;
+font-size: 18px;
+height: 50px;
+width: 150px;
+cursor: pointer;
+font-family: 'Roboto', sans-serif;
+}
+
+.port:hover {
+    background-color: #FF4A57;
+}
+
+#youtube {
+    background-color: #FF4A57;
+    color: #ffffff;
+    border-radius: 30% / 50%;
+    margin: 50px 25px;
+    border: 2px solid #FF4A57;
+    height: 50px;
+    width: 90px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+#youtube:hover {
+    background-color: #FF4A57;
+}
+
+#main-2 {
+    margin-right: 100px;
+}
+
+.pic {
+    width: 30%;
+    height: 30%;
+    margin-left: 600px;
 }
